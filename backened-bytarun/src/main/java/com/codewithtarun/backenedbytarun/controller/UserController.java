@@ -17,7 +17,7 @@ import com.codewithtarun.backenedbytarun.model.User;
 import com.codewithtarun.backenedbytarun.repository.UserRepository;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://tarunspringproject.netlify.app")
 public class UserController {
 
 	@Autowired
